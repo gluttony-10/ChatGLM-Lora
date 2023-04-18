@@ -9,7 +9,7 @@ icetk
 cpm_kernels==1.0.11
 torch>=1.13.1
 tensorboard
-gradio
+gradio==3.21.0
 
 # 
 datasets==2.10.1
