@@ -1,3 +1,5 @@
+# 自用库 随时修改中
+
 # ChatGLM-Tuning
 
 一种平价的chatgpt实现方案，基于清华的 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) + LoRA 进行finetune.
