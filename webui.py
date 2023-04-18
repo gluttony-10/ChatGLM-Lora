@@ -103,7 +103,7 @@ def save_history(history):
         json.dump(dict_list, f, ensure_ascii=False, indent=2)
 
 
-def save_config(max_length=2048, top_p=0.7, temperature=0.95, memory_limit=-1.0):
+def save_config(max_length=2048, top_p=0.5, temperature=0.95, memory_limit=-1.0):
     with open('config.json', 'w') as f:
         json.dump({'max_length': max_length, 'top_p': top_p, 'temperature': temperature, 'memory_limit': memory_limit}, f, indent=2)
 
