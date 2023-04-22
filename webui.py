@@ -32,7 +32,8 @@ if device == 'cuda':
 else:
     model = AutoModel.from_pretrained(args.path, trust_remote_code=True).float()
 
-model = PeftModel.from_pretrained(model, "output").half()
+if os.path.exists(output):
+    model = PeftModel.from_pretrained(model, "output").half()
 model = model.eval()
 
 
