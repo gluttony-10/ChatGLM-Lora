@@ -99,12 +99,12 @@ def reset_history():
 
 def save_history(history):
     os.makedirs('log', exist_ok=True)
-    dict_list = [{'input': q, 'output': a} for q, a in history]
+    dict_list = [{'q': q, 'o': a} for q, a in history]
     with open(f'log/{datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")}.json', 'w', encoding='utf-8') as f:
         json.dump(dict_list, f, ensure_ascii=False, indent=2)
 
 
-def save_config(max_length=2048, top_p=0.5, temperature=0.95, memory_limit=-1.0):
+def save_config(max_length=2048, top_p=0.5, temperature=0.95, memory_limit=20):
     with open('config.json', 'w') as f:
         json.dump({'max_length': max_length, 'top_p': top_p, 'temperature': temperature, 'memory_limit': memory_limit}, f, indent=2)
 
@@ -114,8 +114,8 @@ def load_history(file, styled_history, history):
     try:
         with open(file.name, 'r', encoding='utf-8') as f:
             dict_list = json.load(f)
-        history = [(item['input'], item['output']) for item in dict_list]
-        styled_history = [(parse_text(item['input']), parse_text(item['output'])) for item in dict_list]
+        history = [(item['q'], item['o']) for item in dict_list]
+        styled_history = [(parse_text(item['q']), parse_text(item['o'])) for item in dict_list]
     except BaseException:
         return current_styled_history, current_history, ''
     return styled_history, history, '', *gr_hide()
@@ -184,7 +184,7 @@ with gr.Blocks() as demo:
     delete = gr.Button('清空聊天')
 
     with gr.Row():
-        save = gr.Button('保存对话（在 `log` 文件夹下）')
+        save = gr.Button('保存对话（在log文件夹下）')
         load = gr.UploadButton('读取对话', file_types=['file'], file_count='single')
 
     input_list = [message, chatbot, state, max_length, top_p, temperature, memory_limit]
