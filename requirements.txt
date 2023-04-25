@@ -13,6 +13,6 @@ gradio==3.21.0
 
 # 
 datasets==2.10.1
-git+https://github.com/huggingface/peft.git  # 最新版本 >=0.3.0.dev0
+git+https://ghproxy.com/https://github.com/huggingface/peft.git  # 最新版本 >=0.3.0.dev0
 
 cmake
