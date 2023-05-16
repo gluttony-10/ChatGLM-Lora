@@ -1,0 +1,51 @@
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/config.json
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=config.json
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/configuration_chatglm.py
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=configuration_chatglm.py
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/ice_text.model
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=ice_text.model
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/modeling_chatglm.py
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=modeling_chatglm.py
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00001-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00001-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00002-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00002-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00003-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00003-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00004-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00004-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00005-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00005-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00006-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00006-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00007-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00007-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model-00008-of-00008.bin
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model-00008-of-00008.bin
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/pytorch_model.bin.index.json
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=pytorch_model.bin.index.json
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/quantization.py
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=quantization.py
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/test_modeling_chatglm.py
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=test_modeling_chatglm.py
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/tokenization_chatglm.py
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=tokenization_chatglm.py
+https://huggingface.co/THUDM/chatglm-6b/resolve/main/tokenizer_config.json
+ dir=/mnt/workspace/ChatGLM-Lora/chatglm-6b
+ out=tokenizer_config.json
