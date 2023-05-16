@@ -1,9 +1,9 @@
 # int8
 bitsandbytes==0.37.1
-accelerate==0.7.1
+accelerate==0.17.1
 
 # chatglm
-protobuf>=3.20.0
+protobuf==3.20.0
 transformers==4.27.1
 icetk
 cpm_kernels==1.0.11
