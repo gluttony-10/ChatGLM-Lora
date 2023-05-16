@@ -1,0 +1,39 @@
+https://huggingface.co/chenxluo/QteaMix/resolve/main/QteaMix-fp16.safetensors
+ dir=/kaggle/working/stable-diffusion-webui/models/Stable-diffusion
+ out=QteaMix-fp16.safetensors
+https://huggingface.co/Gluttony10/SD/resolve/main/chilloutmix-Ni.safetensors
+ dir=/kaggle/working/stable-diffusion-webui/models/Stable-diffusion
+ out=chilloutmix-Ni.safetensors
+https://huggingface.co/Gluttony10/SD/resolve/main/fox20_fox20.ckpt
+ dir=/kaggle/working/stable-diffusion-webui/models/Stable-diffusion
+ out=fox20_fox20.ckpt
+https://huggingface.co/Gluttony10/SD/resolve/main/vae-ft-mse-840000-ema-pruned.vae.ckpt
+ dir=/kaggle/working/stable-diffusion-webui/models/Stable-diffusion
+ out=vae-ft-mse-840000-ema-pruned.vae.ckpt
+https://huggingface.co/andite/anything-v4.0/resolve/main/anything-v4.5-pruned-fp16.ckpt
+ dir=/kaggle/working/stable-diffusion-webui/models/Stable-diffusion
+ out=anything-v4.5-pruned-fp16.ckpt
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11f1e_sd15_tile.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11f1p_sd15_depth.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11p_sd15_canny.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11p_sd15_lineart.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11p_sd15_openpose.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11p_sd15_seg.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth
+ dir=/kaggle/working/stable-diffusion-webui/models/ControlNet
+ out=control_v11p_sd15s2_lineart_anime.pth
+https://ghproxy.com/https://github.com/AUTOMATIC1111/TorchDeepDanbooru/releases/download/v1/model-resnet_custom_v3.pt
+ dir=/kaggle/working/stable-diffusion-webui/models/torch_deepdanbooru/
+ out=model-resnet_custom_v3.pt
