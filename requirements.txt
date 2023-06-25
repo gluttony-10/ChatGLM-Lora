@@ -1,15 +1,14 @@
 # int8
 bitsandbytes==0.37.1
-accelerate==0.17.1
 
 # chatglm
-protobuf==3.20.0
+protobuf
 transformers==4.27.1
-icetk
-cpm_kernels==1.0.11
-torch>=1.13.1
-tensorboard
-gradio==3.21.0
+cpm_kernels
+gradio
+mdtex2html
+sentencepiece
+accelerate
 
 # 
 datasets==2.10.1
